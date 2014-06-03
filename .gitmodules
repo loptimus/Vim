@@ -7,3 +7,18 @@
 [submodule "bundle/Powerline"]
 	path = bundle/Powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "bundle/emmet"]
+	path = bundle/emmet
+	url = git://github.com/mattn/emmet-vim.git
+[submodule "bundle/minibufexpl"]
+	path = bundle/minibufexpl
+	url = git://github.com/fholgado/minibufexpl.vim.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = git://github.com/msanders/snipmate.vim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim_languages_plugins"]
+	path = bundle/vim_languages_plugins
+	url = git://github.com/WolfgangMehner/vim-plugins.git
