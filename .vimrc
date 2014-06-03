@@ -69,8 +69,8 @@
 "au BufNewFile,BufRead *.html setf htmldjango
 
 " GUI配置
-if has("gui_running")
-    au GUIEnter * simalt ~x  " 窗口启动时自动最大化
+"if has("gui_running")
+"    au GUIEnter * simalt ~x  " 窗口启动时自动最大化
     "winpos 20 20            " 指定窗口出现的位置，坐标原点在屏幕左上角
     "set lines=20 columns=90 " 指定窗口大小，lines为高度，columns为宽度
     "set guioptions-=m       " 隐藏菜单栏
@@ -79,7 +79,7 @@ if has("gui_running")
     "set guioptions-=r       " 隐藏右侧滚动条
     "set guioptions-=b       " 隐藏底部滚动条
     "set showtabline=0       " 隐藏Tab栏
-endif
+"endif
 
 
 " 设置编码
@@ -117,7 +117,7 @@ set cmdheight=2              " 命令行的高度，默认为1，这里设为2
 " set autochdir                " 设定文件浏览器目录为当前目录
 " let g:Source='C:/workspace'
 
-colorscheme blackboard       " 着色模式：蓝色背景
+colorscheme molokai          " 着色模式：蓝色背景|molokai
 set guifont=Monaco:h10       " 字体 && 字号
 set tabstop=4                " 设置tab键的宽度
 set shiftwidth=4             " 换行时行间交错使用4个空格
@@ -135,7 +135,7 @@ set nowrapscan               " 搜索到文件两端时不重新搜索
 set nocompatible             " 关闭兼容模式
 set vb t_vb=                 " 关闭提示音
 set noerrorbells 
-set novisualbell			 " 关闭闪屏警报
+set novisualbell             " 关闭闪屏警报
 set cursorline               " 突出显示当前行
 set hidden                   " 允许在有未保存的修改时切换缓冲区
 set list                     " 显示Tab符，使用一高亮竖线代替
@@ -194,8 +194,8 @@ let Tlist_File_Fold_Auto_Close=1             " 自动折叠
 
 
 " :AuthorInfoDetect   自动添加作者、时间等信息，本质是NERD_commenter && authorinfo的结合
-let g:vimrc_author='lwl'
-let g:vimrc_email='liwl@idatatech.cn'
+let g:vimrc_author='loptimus'
+let g:vimrc_email='loptimus2510@gmail.com'
 let g:vimrc_homepage='https://github.com/loptimus/Vim.git'
 
 
