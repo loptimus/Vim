@@ -120,6 +120,7 @@ set cmdheight=2              " 命令行的高度，默认为1，这里设为2
 colorscheme molokai          " 着色模式：蓝色背景|molokai
 set guifont=Monaco:h10       " 字体 && 字号
 set tabstop=4                " 设置tab键的宽度
+set expandtab                " 设置tab键的宽度
 set shiftwidth=4             " 换行时行间交错使用4个空格
 set autoindent               " 自动对齐
 set backspace=2              " 设置退格键可用
